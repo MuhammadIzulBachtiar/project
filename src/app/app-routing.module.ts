@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ForgotComponent} from './auth/forgot/forgot.component';
+import { HomeComponent } from './auth/home/home.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,14 @@ const routes: Routes = [
   {
     path: 'forgot',
     component:ForgotComponent
+  },
+  {
+    path: 'home',
+    component:HomeComponent
+  },
+  {
+    path:'admin',
+    loadChildren:()=>import('./admin/admin.module').then(mod=>mod.AdminModule)
   },
   {
     path:'',
