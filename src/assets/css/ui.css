@@ -1400,6 +1400,7 @@ a[class*=card]:hover .title {
   min-width: 80px;
 }
 
+
 /* ================ PAGES HEADER ================== */
 /* ====================== shopping-cart ==================== */
 .table-shopping-cart.table td, .table-shopping-cart.table th {
@@ -1414,5 +1415,6 @@ a[class*=card]:hover .title {
   margin-right: 5px;
   display: block;
 }
+
 
 /*# sourceMappingURL=ui.css.map */
