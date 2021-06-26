@@ -161,6 +161,10 @@ a:hover {
   padding-bottom: 40px;
 }
 
+.padding-x {
+  padding-bottom: 40px;
+}
+
 .padding-top {
   padding-top: 40px;
 }
@@ -425,6 +429,11 @@ p:last-child {
   position: relative;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.header-m {
+  position: relative;
+  padding-top: 5rem;
 }
 
 .brand-wrap .logo, .navbar-brand .logo {

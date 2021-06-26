@@ -7,6 +7,8 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ForgotComponent } from './auth/forgot/forgot.component';
 import { HomeComponent } from './auth/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -16,10 +18,12 @@ import { HomeComponent } from './auth/home/home.component';
     ForgotComponent,
     HomeComponent,
 
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
